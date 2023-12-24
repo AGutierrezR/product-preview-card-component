@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--gutter, 1rem);
-  --threshold: 30rem;
+  --threshold: 37.5rem;
 }
 
 .switcher > * {

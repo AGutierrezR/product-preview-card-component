@@ -1,40 +1,36 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- displays site properly based on user's device -->
-  <link
-    rel="icon"
-    type="image/png"
-    sizes="32x32"
-    href="./images/favicon-32x32.png"
-  />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
   <title>Frontend Mentor | Product preview card component</title>
 </head>
 
 <body class="flex flex-col min-h-screen bg-cream">
-  <main class="grow flex flex-col justify-center py-2">
+  <main class="grow flex flex-col justify-center region">
     <div class="wrapper" data-trim>
-      <div class="bg-white rounded-xl overflow-hidden">
-        <div>
+      <div class="bg-white rounded-xl overflow-hidden switcher gap-0 max-w-[400px] sm:max-w-[600px] mx-auto">
+        <div class="sm:max-w-[50%]">
           <picture>
-            <source media="(min-width:650px)" srcset="/images/image-product-desktop.jpg" />
+            <source media="(min-width: 640px)" srcset="/images/image-product-desktop.jpg" />
             <img src="/images/image-product-mobile.jpg" alt="" />
           </picture>
         </div>
-        <div class="p-6 flow">
+        <div class="p-6 sm:p-8 flow sm:max-w-[50%]">
           <span class="text-small uppercase tracking-[5px]">Perfume</span>
-          <h1 class="mt-2 tracking-[-0.3px]">Gabrielle Essence Eau De Parfum</h1>
-          <p>
+          <h1 class="mt-2 sm:mt-4 tracking-[-0.3px]">Gabrielle Essence Eau De Parfum</h1>
+          <p class="sm:mt-6">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
-          <div class="cluster gap-4">
+          <div class="cluster gap-4 mt-5">
             <span class="font-heading text-step-3 text-dark-cyan">$149.99</span>
             <span class="line-through">$169.99</span>
           </div>
-          <button class="cluster gap-2 text-white py-3 w-full bg-dark-cyan rounded-lg justify-center">
+          <button class="cluster gap-2 sm:mt-5 text-white py-3 w-full bg-dark-cyan rounded-lg justify-center">
             <svg class="w-4 h-4">
               <use xlink:href="#:cart" />
             </svg>

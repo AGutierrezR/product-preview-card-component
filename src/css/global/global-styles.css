@@ -64,3 +64,17 @@ blockquote,
 figcaption {
   max-width: 65ch;
 }
+
+/* body {
+  background: url('/design/mobile-design.jpg');
+  background-size: 375px 667px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+@media (min-width: 1440px) {
+  body {
+    background: url('/design/desktop-design.jpg');
+    background-size: 1440 px 800px;
+  }
+} */

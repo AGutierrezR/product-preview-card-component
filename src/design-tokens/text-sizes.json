@@ -15,7 +15,7 @@
     {
       "name": "Base",
       "min": 14,
-      "max": 18
+      "max": 14
     },
     {
       "name": "Step 0",
@@ -35,7 +35,7 @@
     {
       "name": "Step 3",
       "min": 32,
-      "max": 46
+      "max": 32
     },
     {
       "name": "Step 4",
