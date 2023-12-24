@@ -4,8 +4,8 @@
   "items": [
     {
       "name": "small",
-      "min": 16,
-      "max": 16
+      "min": 12,
+      "max": 12
     },
     {
       "name": "Step neg 1",
@@ -14,7 +14,7 @@
     },
     {
       "name": "Base",
-      "min": 16,
+      "min": 14,
       "max": 18
     },
     {
@@ -24,7 +24,7 @@
     },
     {
       "name": "Step 1",
-      "min": 23,
+      "min": 20,
       "max": 23
     },
     {
