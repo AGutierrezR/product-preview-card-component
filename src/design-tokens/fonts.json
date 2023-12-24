@@ -4,13 +4,13 @@
   "items": [
     {
       "name": "Base",
-      "description": "Work Sans",
-      "value": ["Work Sans", "sans-serif"]
+      "description": "Montserrat",
+      "value": ["Montserrat", "sans-serif"]
     },
     {
       "name": "Heading",
-      "description": "Work Sans",
-      "value": ["Work Sans", "sans-serif"]
+      "description": "Fraunces",
+      "value": ["Fraunces", "sans-serif"]
     }
   ]
 }
